@@ -46,7 +46,7 @@
     //Change the bots default settings and make sure they are loaded on launch
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-      botName: "basicBot",
+      botName: "MagesBot",
       language: "english",
       chatLink: "https://rawgit.com/bscBot/source/master/lang/en.json",
       scriptLink: "https://rawgit.com/bscBot/source/master/basicBot.js",
@@ -72,9 +72,9 @@
       voteSkipLimit: 10,
       historySkip: false,
       timeGuard: true,
-      maximumSongLength: 10,
+      maximumSongLength: 6,
       autodisable: true,
-      commandCooldown: 30,
+      commandCooldown: 10,
       usercommandsEnabled: true,
       skipPosition: 3,
       skipReasons: [
@@ -88,9 +88,9 @@
       ],
       afkpositionCheck: 15,
       afkRankCheck: "ambassador",
-      motdEnabled: false,
+      motdEnabled: true,
       motdInterval: 5,
-      motd: "Temporary Message of the Day",
+      motd: "I'm MagesBot, this rooms proffesional helper! Enjoy your stay :)",
       filterChat: true,
       etaRestriction: false,
       welcome: true,
